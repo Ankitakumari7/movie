@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Ticket Booking</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Movie Ticket Booking</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="booking.html">Booking</a></li>
+			<li><a href="now-showing.html">Now Showing</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h2>Choose a Movie to Watch</h2>
+			<form>
+				<label for="movie">Select a Movie:</label>
+				<select id="movie" name="movie">
+					<option value="movie1">Movie 1</option>
+					<option value="movie2">Movie 2</option>
+					<option value="movie3">Movie 3</option>
+				</select>
+				<label for="seats">Select Number of Seats:</label>
+				<input type="number" id="seats" name="seats" min="1" max="10" value="1">
+				<input type="submit" value="Book Now" class="btn">
+			</form>
+		</section>
+		<section>
+			<h2>Seat Availability</h2>
+			<table>
+				<tr>
+					<th>Seat Number</th>
+					<th>Status</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Available</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Booked</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Available</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Available</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Booked</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Available</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Available</td>
+				</tr>
+				<tr>
+					<td>8</td>
+<td>Available</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Booked</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Available</td>
+</tr>
+</table>
+</section>
+</main>
+<footer>
+<p>© 2023 Movie Ticket Booking</p>
+</footer>
+
+</body>
+</html>
